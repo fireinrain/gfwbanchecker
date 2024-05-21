@@ -75,5 +75,5 @@ type IPPortInfo struct {
 }
 
 type CheckerAPI interface {
-	CheckIP(ip string, port int) CheckerResult
+	CheckIP(ipOrDomain string, port int) CheckerResult
 }
